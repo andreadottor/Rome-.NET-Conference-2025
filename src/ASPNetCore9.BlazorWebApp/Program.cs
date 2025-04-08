@@ -45,6 +45,8 @@ builder.Services.AddRazorComponents()
                 {
                     data.Claims.Add(new("time-zone", timeZone));
                 }
+
+                data.Claims.Add(new("theme", "dark"));
             }
 
             return ValueTask.FromResult(data);
