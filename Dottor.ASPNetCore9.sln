@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.35906.104
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPNetCore9.WebAPI", "src\ASPNetCore9.WebAPI\ASPNetCore9.WebAPI.csproj", "{09D17046-029A-4874-8DDC-439D31E68627}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPNetCore9.BlazorWebApp", "src\ASPNetCore9.BlazorWebApp\ASPNetCore9.BlazorWebApp.csproj", "{E1BC1527-C379-4903-9CC6-84C8ACFFD36F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPNetCore9.BlazorWebApp.Client", "src\ASPNetCore9.BlazorWebApp.Client\ASPNetCore9.BlazorWebApp.Client.csproj", "{6F42026B-2594-410D-8844-C5CACA4BBA6C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Blazor", "Blazor", "{964D8663-7946-4885-B7D9-3A67E8990CE6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{09D17046-029A-4874-8DDC-439D31E68627}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09D17046-029A-4874-8DDC-439D31E68627}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09D17046-029A-4874-8DDC-439D31E68627}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09D17046-029A-4874-8DDC-439D31E68627}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1BC1527-C379-4903-9CC6-84C8ACFFD36F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1BC1527-C379-4903-9CC6-84C8ACFFD36F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1BC1527-C379-4903-9CC6-84C8ACFFD36F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1BC1527-C379-4903-9CC6-84C8ACFFD36F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F42026B-2594-410D-8844-C5CACA4BBA6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F42026B-2594-410D-8844-C5CACA4BBA6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F42026B-2594-410D-8844-C5CACA4BBA6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F42026B-2594-410D-8844-C5CACA4BBA6C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{09D17046-029A-4874-8DDC-439D31E68627} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{E1BC1527-C379-4903-9CC6-84C8ACFFD36F} = {964D8663-7946-4885-B7D9-3A67E8990CE6}
+		{6F42026B-2594-410D-8844-C5CACA4BBA6C} = {964D8663-7946-4885-B7D9-3A67E8990CE6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D40A52BB-D4BA-479A-B234-AD5D65A1AC4D}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,38 @@
+﻿@page "/check-render-mode"
+@rendermode InteractiveAuto
+
+<h3>Check current RenderMode</h3>
+
+<p>
+    Is interactive: <strong>@RendererInfo.IsInteractive</strong>
+</p>
+<p>
+    Location: <strong>@RendererInfo.Name</strong>
+</p>
+<p>
+    Assigned RenderMode:
+    @if(AssignedRenderMode is null)
+    {
+        <strong>Static server-side</strong>
+    }
+    else if (AssignedRenderMode == RenderMode.InteractiveServer)
+    {
+        <strong>InteractiveServer</strong>
+    }
+    else if (AssignedRenderMode == RenderMode.InteractiveWebAssembly)
+    {
+        <strong>InteractiveWebAssembly</strong>
+    }
+    else if (AssignedRenderMode == RenderMode.InteractiveAuto)
+    {
+        <strong>InteractiveAuto</strong>
+    }
+</p>
+
+@code {
+    protected override void OnInitialized()
+    {
+        // only for testing purposes
+        Thread.Sleep(4000);
+    }
+}
